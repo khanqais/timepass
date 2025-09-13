@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const TimeMachine = () => {
-  const [year, setYear] = useState(0);
+  const [year, setYear] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState('');
   const [finalMessage, setFinalMessage] = useState('');
